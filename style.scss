@@ -1,0 +1,101 @@
+@media (min-width: 1000px) {
+  .card {
+    flex-direction: row;
+  }
+}
+@media (max-width: 1000px) {
+  .card {
+    flex-direction: column;
+  }
+}
+.card {
+  display: flex;
+  justify-content: start;
+  max-width: 54rem;
+  border-radius: 2rem;
+  box-sizing: inherit;
+}
+.box1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px;
+  color: white;
+
+  h1 {
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: bold;
+  }
+  p {
+    font-family: "Lexend Deca", sans-serif;
+  }
+  button {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: hsl(31, 77%, 52%);
+    padding: 8px 10px 8px 10px;
+    font-size: 1rem;
+    &:hover {
+      background-color: hsl(31, 77%, 52%);
+      color: white;
+    }
+  }
+}
+.box2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+  color: white;
+
+  h1 {
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: bold;
+  }
+  p {
+    font-family: "Lexend Deca", sans-serif;
+  }
+  button {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: hsl(184, 100%, 22%);
+    padding: 8px 10px 8px 10px;
+    font-size: 1rem;
+    &:hover {
+      background-color: hsl(184, 100%, 22%);
+      color: white;
+    }
+  }
+}
+.box3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+  color: white;
+
+  h1 {
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: bold;
+  }
+  p {
+    font-family: "Lexend Deca", sans-serif;
+  }
+  button {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: hsl(179, 100%, 13%);
+    padding: 8px 10px 8px 10px;
+    font-size: 1rem;
+    &:hover {
+      background-color: hsl(179, 100%, 13%);
+      color: white;
+    }
+  }
+}
+body {
+  padding: 10rem 1.5rem 6rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--vltgray);
+}
